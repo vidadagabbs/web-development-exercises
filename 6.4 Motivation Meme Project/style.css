@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+.style{
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+
+}
+
+.photo{
+    border: 5px solid white;
+    width: 100%;
+}
