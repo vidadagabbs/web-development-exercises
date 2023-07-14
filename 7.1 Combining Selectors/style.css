@@ -1,20 +1,25 @@
 /* Write your code here: */
-
+/* Group */
 h1,h2{
+    background-color: orange;
+}
+
+/* Child */
+ul > p {
+    color: aqua;
+}
+
+/* Descendent */
+.box li{
     color: blueviolet;
 }
-.box > p {
-    color: firebrick;
-}
 
-.box li{
-    color: blue;
-}
-
+/* Chained */
 li.done{
-    color: seagreen;
+    color: brown;
 }
 
-ul p.done{
-   font-size: 0.5rem;
+/* Multiple Combiners */
+h1,ul > .done{
+    background-color: blue;
 }
